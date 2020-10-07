@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API WEATHER</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script>
+        var ar = document.createElement('div');
+        ar.classList.add('row');
+        var ad1 = document.createElement('div');
+        ad1.classList.add('col-1');
+        var cont = document.createElement('div')
+        cont.classList.add('col-10','container-fluid');
+        cont.id = 'container';
+        var ro = document.createElement('div');
+        ro.classList.add('row');
+        ro.id = 'coro';
+        cont.appendChild(ro);
+        var ad2 = document.createElement('div');
+        ad2.classList.add('col-1');
+        ar.append(ad1, cont, ad2);
+        document.body.appendChild(ar)
+    </script>
+    <script src="script.js"> </script>
+</body>
+</html>
